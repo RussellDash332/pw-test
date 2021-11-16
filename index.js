@@ -1,4 +1,4 @@
-var password = "${process.env.PASSWORD}"; // test password: foobar
+var password = `${process.env.PASSWORD}`; // test password: foobar
 
 function passcheck() {
     if (document.getElementById('pass1').value != password) {
